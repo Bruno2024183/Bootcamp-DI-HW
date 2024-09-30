@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Random Quote Generator</h1>
+
+    <!-- Additional Buttons for Quote Info -->
+    <div id="quoteInfo">
+        <button id="charWithSpacesBtn">Characters (with spaces)</button>
+        <button id="charWithoutSpacesBtn">Characters (without spaces)</button>
+        <button id="wordCountBtn">Word Count</button>
+        <button id="likeQuoteBtn">Like (<span id="likeCount">0</span>)</button>
+    </div>
+
+    <!-- Quote Display Section -->
+    <div id="quote">
+        <!-- Quote will appear here -->
+    </div>
+
+    <!-- Button to Generate Quote -->
+    <button id="generateQuoteBtn">Generate Quote</button>
+
+    <!-- Form to Add a New Quote -->
+    <h2>Add a New Quote</h2>
+    <form id="addQuoteForm">
+        <input type="text" id="newQuote" placeholder="Enter Quote" required>
+        <input type="text" id="newAuthor" placeholder="Enter Author" required>
+        <button type="submit">Add Quote</button>
+    </form>
+
+    <!-- Filter Form to Search Quotes by Author -->
+    <h2>Filter Quotes by Author</h2>
+    <form id="filterForm">
+        <input type="text" id="authorFilter" placeholder="Enter Author Name" required>
+        <button type="submit">Filter Quotes</button>
+    </form>
+
+    <!-- Buttons for navigating filtered quotes -->
+    <div id="navigationButtons">
+        <button id="prevQuoteBtn" style="display: none;">Previous</button>
+        <button id="nextQuoteBtn" style="display: none;">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

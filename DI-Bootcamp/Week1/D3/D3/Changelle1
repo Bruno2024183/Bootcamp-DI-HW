@@ -1,0 +1,17 @@
+def reverse_sentence(sentence):
+    # Split the setence into words
+    words = sentence.split()
+    # Reverse the list of words
+    reverse_words = words[::-1]
+    # Join the reversed list of words back into a sentence
+    reversed_sentence = ''.join(reserved_words)
+    return reversed_sentence
+# Input sentence
+input_sentence = "You have entered a wrong domain"
+
+# Get the reserved sentence
+output_sentence = reverse_sentence(input_sentence)
+
+# Print the output
+print(output_sentence)
+

@@ -1,0 +1,5 @@
+mkdir npm-beginner
+cd npm-beginner
+
+
+node app.js

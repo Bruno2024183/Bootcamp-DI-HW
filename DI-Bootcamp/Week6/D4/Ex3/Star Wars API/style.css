@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.title {
+    font-size: 3rem;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.character-info {
+    border: 2px solid yellow;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente para la caja */
+}
+
+.hidden {
+    display: none;
+}
+
+.loading {
+    font-size: 1.5rem;
+}
+
+.find-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+}
